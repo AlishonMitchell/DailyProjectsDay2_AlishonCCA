@@ -1,8 +1,8 @@
-const colors =[ "red","blue","green","purple","yellow", "orange", "Black"];
+
 
 function clicker() {
-    var randomColors = colors[Math.floor(Math.random()* colors.length)];
-    document.querySelector("body").style.background = randomColors;    
+    var randomColors = Math.floor(Math.random()*16777215).toString(16);
+   document.querySelector("body").style.background = "#" +randomColors;  
 }
 
 document.querySelector('.mybutton').addEventListener("click", clicker);
