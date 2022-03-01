@@ -1,0 +1,36 @@
+
+
+body{
+    background-color: #243462;
+    padding: 0px;
+    margin: 0%;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size:100px;
+    align-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+    width: 200px;
+    height: 100px;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: brown;
+    background-color: #e2c389;
+    border-radius: 31px;
+    box-shadow: 0px 0px 10px 9px #00000050;
+
+}
+
+.infomation{
+    display: flex;
+    max-width: 85%;
+    margin:0 auto;
+    justify-content: center;
+
+}
