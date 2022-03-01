@@ -1,4 +1,4 @@
-const colors =[ "red","blue","green"];
+const colors =[ "red","blue","green","purple","yellow", "orange", "Black"];
 
 function clicker() {
     var randomColors = colors[Math.floor(Math.random()* colors.length)];
